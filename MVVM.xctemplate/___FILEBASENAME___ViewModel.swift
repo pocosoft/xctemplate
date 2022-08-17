@@ -8,5 +8,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: ViewModelType {
 
     struct Output {}
 
-    func transform(input: Input) -> Output {}
+    func transform(input: Input) -> Output {
+        return Output()
+    }
 }
